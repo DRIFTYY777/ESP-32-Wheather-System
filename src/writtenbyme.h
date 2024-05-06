@@ -13,10 +13,10 @@
 // ___________details about firebase project and wifi name and pass___________
 #define WIFI_SSID "test"                                  // username of wifi
 #define WIFI_PASSWORD "voidmain"                          // password
-#define API_KEY "AIzaSyBfppxm4qqUo60xeV2k7Ztr9z2qHc0lT6I" // key for connection
+#define API_KEY "" // key for connection
 #define FIREBASE_PROJECT_ID "that-esp"                    // project name on server
 #define USER_EMAIL "gbjhasd344@gmail.com"                 // lincked account with project for sec..
-#define USER_PASSWORD "mmmmmmmmmm777"
+#define USER_PASSWORD ""
 // ___________details about firebase project and wifi name and pass___________
 
 //___________________________Defining wind_direction pins total 8 pins___________________________
