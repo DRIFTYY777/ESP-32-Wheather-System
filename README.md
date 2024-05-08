@@ -9,7 +9,6 @@ Uploads data to a Firebase Realtime Database for real-time monitoring
 Saves data locally on an SD card with timestamps for offline analysis
 Synchronizes timestamps with an NTP time server for accurate data recording
 Integrates with an Android application for data visualization (link provided below)
-## Getting Started
 
 
 ## Pin Config
@@ -34,6 +33,7 @@ Integrates with an Android application for data visualization (link provided bel
        W     (26)
        W_N   (25)
 
+## Getting Started
 
 1. Prerequisites
 
