@@ -11,6 +11,30 @@ Synchronizes timestamps with an NTP time server for accurate data recording
 Integrates with an Android application for data visualization (link provided below)
 ## Getting Started
 
+
+## Pin Config
+          ESP32 Board
+         (Top View)
+
+     3.3V  - |
+          |  5V
+          |  GND
+       DHT11PIN (22)  - DHT11 Sensor (Data)
+          |
+       SD_CS (5)     - SD Card (Chip Select)
+          |
+          | (Wind Speed Sensor Connections)
+          |
+       N     (10)
+       N_E   (9)
+       E     (13)  - These pins can be connected
+       E_S   (12)  to the wind speed sensor's
+       S     (14)  output pins based on its specific
+       S_W   (27)  requirements (consult datasheet).
+       W     (26)
+       W_N   (25)
+
+
 1. Prerequisites
 
 ESP32 development board (any model compatible with Arduino IDE)
