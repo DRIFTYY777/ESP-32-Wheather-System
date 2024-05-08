@@ -42,7 +42,7 @@ DHT11 sensor
 Wind speed sensor (model and connection details required)
 MicroSD card (recommended size: 2GB or higher)
 Breadboard and jumper wires
-Wi-Fi network credentials (SSID and password)
+Wi-Fi network credentials (SSID and password) is in 
 A Firebase project with a Realtime Database (https://firebase.google.com/)
 An NTP server address for time synchronization (e.g., pool.ntp.org)
 Arduino IDE (https://www.arduino.cc/) installed on your computer
@@ -61,7 +61,7 @@ DHT library (version compatible with your DHT11 sensor)
 SD library
 Firebase ESP32 library
 Time library (for NTP synchronization)
-Replace placeholder values in the code with your Wi-Fi credentials, Firebase project details (database URL and credentials), NTP server address, and any sensor-specific settings.
+Replace placeholder values in the code (writtenbyme.h) with your Wi-Fi credentials, Firebase project details (database URL and credentials), NTP server address, and any sensor-specific settings.
 3.2. Upload the Code
 
 In the Arduino IDE, open the provided code (ESP32_DHT11_Wind_Firebase_SD.ino).
@@ -69,7 +69,7 @@ Select your ESP32 board and serial port from the Tools menu.
 Click the Upload button to upload the code to your ESP32 board.
 ## Android Application
 
-The provided link (Link) leads to the Android application that can be used to visualize the collected data from your Firebase Realtime Database. Download and install the application on your Android device to see the sensor readings in real time.
+The provided link (https://github.com/DRIFTYY777/ESP-32--Room-APk) leads to the Android application that can be used to visualize the collected data from your Firebase Realtime Database. Download and install the application on your Android device to see the sensor readings in real time.
 
 ## Data Analysis
 
